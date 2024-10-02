@@ -134,7 +134,7 @@ fun ConectaApp(
                                         fontSize = 18.sp
                                     )
                                     Text(
-                                        text = "Consultora Ouro",
+                                        text = "Consultora Semente",
                                         color = DarkGray,
                                         fontSize = 14.sp
                                     )

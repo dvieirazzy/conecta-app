@@ -66,13 +66,13 @@ fun StatusCard(
                     horizontalArrangement = Arrangement.SpaceBetween
                 ) {
                     Text(
-                        text = "350 Pontos",
+                        text = "252 Pontos",
                         fontSize = 14.sp,
                         color = Orange,
                         fontWeight = FontWeight.Bold
                     )
                     Text(
-                        text = "400",
+                        text = "299",
                         fontSize = 14.sp,
                         fontWeight = FontWeight.Bold,
                         color = SoftGray
@@ -91,7 +91,7 @@ fun StatusCard(
                     Row(
                         Modifier
                             .height(13.dp)
-                            .fillMaxWidth(0.875f)
+                            .fillMaxWidth(0.84f)
                             .background(
                                 brush = NaturaGradient,
                                 shape = RoundedCornerShape(10.dp)
@@ -100,7 +100,7 @@ fun StatusCard(
                 }
             }
             Text(
-                text = "Você ainda pode subir de nível se aumentar seus pontos até dia 25/06/2024!",
+                text = "Você ainda pode subir de nível se aumentar seus pontos até dia 07/10/2024!",
                 fontSize = 14.sp,
                 color = DarkGray
             )

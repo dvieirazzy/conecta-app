@@ -42,7 +42,7 @@ fun AboutScreen() {
                     .align(Alignment.CenterHorizontally)
             )
             Text(
-                text = "App Conecta\n\nApp Desenvolvido por Deivid Moura Vieira, aluno do curso de sistemas de informação - FIAP\n\nO App foi desenvolvido utilizando a linguagem de programação Kotlin, e a tecnologia Jetpack Conpose, o kit de ferramentas moderno recomendado pelo Android para criar interfaces nativas. Ele simplifica e acelera o desenvolvimento de UI no Android.",
+                text = "App Conecta\n\nApp Desenvolvido pelos alunos do Grupo NEXUS do curso de sistemas de informação - FIAP\n\nO App foi desenvolvido utilizando a linguagem de programação Kotlin, e a tecnologia Jetpack Conpose, o kit de ferramentas moderno recomendado pelo Android para criar interfaces nativas. Ele simplifica e acelera o desenvolvimento de UI no Android.",
                 fontSize = 16.sp,
                 color = Color.Black,
                 modifier = Modifier.fillMaxWidth(0.80f)

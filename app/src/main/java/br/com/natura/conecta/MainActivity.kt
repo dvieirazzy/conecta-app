@@ -168,11 +168,13 @@ class MainActivity : ComponentActivity() {
                         },
                         onBottomAppBarItemSelectedChange = {
                             val route = it.destination.route
-                            navController.navigate(route) {
-                                launchSingleTop = true
-                                popUpTo(route)
+                            if (route != (currentDestination?.route ?: false)) {
+                                navController.navigate(route) {
+                                    launchSingleTop = true
+                                    popUpTo(route)
+                                }
                             }
-                        }
+                        }   
                     ) {
                         NavHost(
                             navController = navController,

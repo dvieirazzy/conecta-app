@@ -86,7 +86,7 @@ fun ProfileScreen(
                     .align(Alignment.CenterHorizontally)
             )
             Text(
-                text = "Consultora Ouro",
+                text = "Consultora Semente",
                 fontSize = 16.sp,
                 color = DarkGray,
                 modifier = Modifier.align(Alignment.CenterHorizontally)
@@ -150,17 +150,17 @@ fun ProfileScreen(
             ) {
                 ProfileCard(
                     title = "Ingressou em",
-                    number = "22 de Julho de 2024",
+                    number = "20 de Julho de 2024",
                     icon = R.drawable.ic_calendar
                 )
                 ProfileCard(
                     title = "Participação",
-                    number = "16 Compras Coletivas",
+                    number = "4 Compras Coletivas",
                     icon = R.drawable.ic_cart
                 )
                 ProfileCard(
                     title = "Pontos",
-                    number = "+620 Pontos",
+                    number = "+150 Pontos Alcançados",
                     icon = R.drawable.ic_graphic
                 )
             }

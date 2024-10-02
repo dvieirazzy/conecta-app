@@ -98,45 +98,6 @@ fun OrderSection(
         }
 
         item {
-            OutlinedButton(
-                onClick = {},
-                border = BorderStroke(2.dp, DarkOrange),
-                modifier = Modifier
-                    .height(50.dp)
-                    .fillMaxWidth(),
-                contentPadding = PaddingValues(0.dp),
-                shape = RoundedCornerShape(15.dp),
-                colors = ButtonDefaults.outlinedButtonColors(
-                    containerColor = Color.Transparent,
-                    contentColor = Color.Transparent
-                )
-            ) {
-                Row(
-                    modifier = Modifier
-                        .background(NaturaGradient)
-                        .fillMaxSize(),
-                    verticalAlignment = Alignment.CenterVertically,
-                    horizontalArrangement = Arrangement.Center
-                ) {
-                    Text(
-                        text = "Novo Pedido",
-                        fontSize = 18.sp,
-                        modifier = Modifier.padding(end = 15.dp),
-                        color = Color.White
-                    )
-                    Icon(
-                        painter = painterResource(id = R.drawable.ic_plus),
-                        contentDescription = null,
-                        modifier = Modifier
-                            .size(25.dp)
-                            .padding(end = 8.dp),
-                        tint = Color.White
-                    )
-                }
-            }
-        }
-
-        item {
             Spacer(modifier = Modifier.height(70.dp))
         }
     }

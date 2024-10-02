@@ -265,9 +265,9 @@ val consultant = Consultant(
     name = "Helena Dias",
     city = "Rio de Janeiro",
     state = "RJ",
-    level = "Ouro",
+    level = "Semente",
     position = "28",
-    points = "350",
+    points = "252",
     image = R.drawable.consultant_user_photo
 )
 
