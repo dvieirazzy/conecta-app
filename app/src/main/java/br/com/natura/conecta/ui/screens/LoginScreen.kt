@@ -225,7 +225,7 @@ fun LoginScreen(onEnterClick: (String) -> Unit = {}) {
         }
         Button(
             onClick = {
-                if (user == "helena@gmail.com" && password == "helena123")
+                if (user == "helena" && password == "123")
                     onEnterClick(user)
                 else
                     Toast.makeText(context, "Login e/ou senha inválido(s)", Toast.LENGTH_SHORT).show()
